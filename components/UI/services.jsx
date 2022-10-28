@@ -22,9 +22,7 @@ const Services = () => {
                     <SectionSubtitle subtitle='What I do'/>
                     <h3 className="mb-0 mt-4">Better Design</h3>
                     <h3 className="mb-4">Better Experience</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dignissimos 
-                        quod nesciunt perspiciatis amet quam, quas aperiam cumque, dolorum non delectus,
-                        consectetur quae ab deleniti magnam. Voluptatem saepe odio adipisci.</p>
+                    <p>Excellence, good design and stability is the priority. I love new challenges and improve my current knowledge.</p>
                 </Col>
             </Row>
         </Container>
