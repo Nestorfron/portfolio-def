@@ -1,7 +1,7 @@
 
 
 .portfolio_item {
-    background: #1f2e5c;
+    background: #004BA8;
     padding: 0px 20px 20px 20px;
     padding-top: 30px;
     border-radius: 10px;
@@ -27,7 +27,7 @@
 .portfolio_keyword {
     padding: 5px 10px;
     color: #fff;
-    background: #808dad68;
+    background: #1f2e5c;
     font-size: 0.7rem;
     margin-right: 10px;
     border-radius: 5px;

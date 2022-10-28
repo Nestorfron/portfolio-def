@@ -44,16 +44,16 @@ footer {
 }
 
 .primary_btn{
-  background: #0000ff !important;
+  background: #1f2e5c !important;
   padding: 7px 20px !important;
-  border: 1px solid #0000ff !important;
+  border: 1px solid #1f2e5c !important;
   border-radius: 5px;
 }
 
 .primary_btn a{
   text-decoration: none;
   color: #ffffff;
-  background: #0000ff!important;
+  background: #1f2e5c!important;
 }
 
 .secondary_btn{
@@ -64,10 +64,11 @@ footer {
 }
 
 .secondary_btn a{
-  color: #0000ff !important;
+  color: #1f2e5c !important;
 }
 
 .primary_btn a:hover, .secondary_btn a:hover{
+
   color: #ffffff;
 }
 
