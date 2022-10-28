@@ -21,7 +21,7 @@ const Hero = () => {
                             <br></br>What will be our next project?
                         </p>
                         <div className="mt-5">
-                            <button className="primary_btn"><Link href="#">Hire me</Link></button>
+                            <button className="primary_btn"><Link href='#contact'>Hire me</Link></button>
                             <button className="secondary_btn"><Link href="#">Dowunload CV</Link></button>
                         </div>                
                     </div>
