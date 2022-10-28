@@ -1,26 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
+  
 }
 
 a {
-  color: inherit;
+  color: unset;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+  background: #4486C1;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+p {
+  color: #ffffff;
+  line-height: 30px;
 }
+
+h1,h2,h3,h4,h5,h6{
+  color:#fff
+}
+
+h2{
+  font-size: 2.5rem !important;
+}
+
+section {
+  padding-top: 150px;
+}
+
+footer { 
+  padding-bottom: 20px;
+  padding-top: 60px;
+  border-top: 1px solid #24272B;
+}
+
+.primary_btn{
+  background: #0000ff !important;
+  padding: 7px 20px !important;
+  border: 1px solid #0000ff !important;
+  border-radius: 5px;
+}
+
+.primary_btn a{
+  text-decoration: none;
+  color: #ffffff;
+  background: #0000ff!important;
+}
+
+.secondary_btn{
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+}
+
+.secondary_btn a{
+  color: #0000ff !important;
+}
+
+.primary_btn a:hover, .secondary_btn a:hover{
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #808dad;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: #24272B;
+}
+
+@media screen and  (max-width:768px ){
+  body {
+    box-sizing: border-box;
+    color:#fff;
+  }
+}     
